@@ -71,3 +71,20 @@ for row in result:
 
 conn.close()
 
+
+
+## star
+
+Create Table Branch (Branch_id INT, Branch_name varchar(25))
+
+Create Table Employee (Employee_id INT, Employee_Name varchar(25))
+
+QL Server 16.0.100
+
+Create Table Product (Product_id INT, Product_name varchar(25))
+
+Create Table Customer (Customer_id INT, Customer_name varchar(25))
+
+ots
+
+Create Table Fact (Branch_id INT, Employee_id INT, Product_id INT, Customer_id INT)
